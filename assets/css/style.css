@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Secular+One&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin-inline: auto;
+  color: #3A1078;
+}
+body{
+  background-color: #F6F1F1;
+}
+.flex-r{
+  display: flex;
+}
+.flex-c{
+  display: flex;
+  flex-flow: column nowrap;
+}
+.container{
+  max-width: 1000px;
+}
+.shape-body{
+  padding: 10px 50px;
+  gap: 20px;
+}
+.result-container{
+  padding: 10px 50px;
+  gap: 20px;
+  border: 5px solid #19376D;
+  width: 500px;
+}
+#mLiter{
+  text-align: center;
+  border: 0;
+  width: 15ch;
+  background-color: #C9EEFF;
+  border-radius: 10px;
+  font-size: 2rem
+}
+.m-liter{
+  padding: 20px 20px;
+  gap: 15px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border: 5px solid #19376D;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
