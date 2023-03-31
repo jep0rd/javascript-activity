@@ -2,7 +2,7 @@ let ml = document.getElementById("mLiter").value;
 
 // let lt = document.getElementById("liter").value;
 // let gal = document.getElementById("gallon").value;
-document.getElementById("liter").innerText = 1000;
+document.getElementById("liter").innerText = 1;
 document.getElementById("gallon").innerText = 0.264172;
 
 function liter(x)
